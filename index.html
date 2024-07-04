@@ -12,7 +12,7 @@
         }
 
         .teste1 {
-            color: rgb(153, 153, 153);
+            color: rgb(255, 255, 255);
         }
 
         .teste2 {
@@ -22,6 +22,32 @@
         .img {
             display: flex;
             justify-content: center;
+        }
+
+        #botao {
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 5px;
+
+        }
+
+        .primeiraDiv {
+            border-color: rgb(207, 207, 207) rgb(255, 0, 0) rgb(207, 207, 207) blue;
+            border-width: 15px 10px 8px 3px;
+            border-style: solid;
+
+        }
+
+        #botao1 {
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 5px;
+        }
+
+        body {
+            background-color: black;
+            color: aliceblue;
+            background-image: url(assets/lamborghini-lmdh-2023-011.jpg);
         }
     </style>
 
@@ -59,7 +85,7 @@
     </ul>
 
     <div class="img">
-        <img src="8-toyota-gazoo-racing-toyota-g.jpg" width="650px">
+        <img class="Toyota" src="assets/8-toyota-gazoo-racing-toyota-g.jpg" width="550px">
     </div>
 
     <h1>Categorias</h1>
@@ -74,11 +100,11 @@
             Ford, etc.), divididos entre equipes profissionais (Pro) e equipes amadoras (Am).</li>
     </ul>
 
-    <img src="lamborghini-sc63-lmdh-1.jpg" width="400px" alt="Lamborghini LMP1">
-    <img src="wec-alpine-a470-launch-2023-36-2.jpg" width="400px" alt="Alpine LMP2">
-    <img src="83-richard-mille-af-corse-ferr.jpg" width="400px" alt="Ferrari GTE-Pro">
+    <img src="assets/lamborghini-sc63-lmdh-1.jpg" width="450px" alt="Lamborghini LMP1">
+    <img src="assets/wec-alpine-a470-launch-2023-36-2.jpg" width="450px" alt="Alpine LMP2">
+    <img src="assets/83-richard-mille-af-corse-ferr.jpg" width="450px" alt="Ferrari GTE-Pro">
 
-    <button><a href="https://www.youtube.com/watch?v=FhujJQB5jHo" target="_blank">Saiba Mais sobre um carro
+    <button><a href="https://www.youtube.com/watch?v=FhujJQB5jHo" target="_blank" id="botao">Saiba Mais sobre um carro
             LMP1</a></button>
 
     <h1>Estratégia e Desgaste</h1>
@@ -90,9 +116,32 @@
             danos
             sem perder muito tempo na pista.</li>
 
-        <li><strong>Desafios:</strong> A corrida ocorre em todas as condições meteorológicas possíveis, do sol escaldante
+        <li><strong>Desafios:</strong> A corrida ocorre em todas as condições meteorológicas possíveis, do sol
+            escaldante
             ao frio da noite. A iluminação é uma questão crítica durante a noite, com os pilotos confiando em faróis
             potentes para guiar seus carros em altas velocidades.</li>
     </ul>
 
-    <img
+    <div class="primeiraDiv">
+        <img class="PS" src="assets/PitStop.jpg" width="650px">
+        <img class="PS" src="assets/PitStop_Mercedes.jpg" width="740px">
+        <button>
+            <a href="https://www.youtube.com/watch?v=_I9hBTncWIU" target="_blank" id="botao1">Pit Stop
+                Nissan</a>
+        </button>
+    </div>
+
+    <h1>Legado e Prestígio</h1>
+
+    <ul>
+        <li><strong>História: </strong>A corrida tem uma rica história e é considerada parte da "Triple Crown" do
+            automobilismo, junto com o Grande Prêmio de Mônaco e as 500 Milhas de Indianápolis.</li>
+        <li><strong>Prestígio: </strong>Vencer em Le Mans é um dos maiores feitos no automobilismo, valorizando tanto
+            pilotos quanto fabricantes de automóveis.</li>
+    </ul>
+
+    <img src="assets/LeMansBmw.jpg" width="450px">
+    <img src="assets/GP_Monaco_2019_925x520_acf_cropped-925x520.jpeg" width="450px">
+    <img src="assets/indy-500-2013-700.jpg" width="450px">
+
+</body>
